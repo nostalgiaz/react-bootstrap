@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import Overlay from './Overlay';
 
-type TriggerType = 'hover' | 'click' | 'focus';
+export type TriggerType = 'hover' | 'click' | 'focus';
 
 export interface OverlayTriggerProps
   extends React.ComponentPropsWithRef<typeof Overlay> {
